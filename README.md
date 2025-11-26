@@ -6,7 +6,7 @@
 
 一个功能强大的可视化节点编辑器，让Python编程变得更加直观和有趣！
 
-[![Version](https://img.shields.io/badge/version-0.1.3-blue.svg)](https://github.com/yourusername/KKNodes)
+[![Version](https://img.shields.io/badge/version-0.1.4-blue.svg)](https://github.com/yourusername/KKNodes)
 [![Python](https://img.shields.io/badge/python-3.8+-green.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)](https://github.com/yourusername/KKNodes)
@@ -85,12 +85,12 @@ KK-PyNodes 是一个现代化的可视化节点编程环境，旨在让 Python �
 
 | 操作 | 方法 |
 |------|------|
-| 添加节点 | 双击节点库中的节点，或右键画布选择 |
+| 添加节点 | 从节点库拖拽到画布，或双击节点库，或右键画布选择 |
 | 移动节点 | 左键拖拽节点 |
 | 删除节点 | 选中节点后按 `Delete` 键 |
 | 编辑属性 | 选中节点，在右侧属性面板编辑 |
 | 创建连接 | 拖拽节点输出端口到另一个节点的输入端口 |
-| 删除连接 | 选中连接后按 `Delete` 键 |
+| 删除连接 | 选中连接按 `Delete` 键，或按住 `Shift` + 右键划线删除 |
 
 ### 画布操作
 
@@ -100,6 +100,7 @@ KK-PyNodes 是一个现代化的可视化节点编程环境，旨在让 Python �
 | 缩放画布 | 鼠标滚轮 |
 | 框选节点 | 左键拖拽空白区域 |
 | 执行节点图 | 按 `F5` 或点击工具栏执行按钮 |
+| 查看执行进度 | 执行时当前节点会以绿色边框高亮显示 |
 
 ### 键盘快捷键
 
@@ -221,11 +222,13 @@ class MyCustomNode(BaseNode):
 
 查看完整的 [版本说明](VERSION_NOTES.md) 了解每个版本的详细更新内容。
 
-### 最新版本 v0.1.3 (2025-11-26)
+### 最新版本 v0.1.4 (2025-11-26)
 
-- ✨ 新增完整的撤销重做系统
-- 📦 新增包管理器（实验性功能）
-- 🔧 改进操作体验和项目隔离
+- 🎯 新增拖拽节点添加功能
+- ✂️ 新增 Shift + 右键划线删除连线
+- 💚 新增节点执行时绿色边框高亮，实时显示执行进度
+- 🐛 修复布尔值无法修改的问题
+- 📦 大量新增常用节点
 
 [查看完整更新日志 →](VERSION_NOTES.md)
 
