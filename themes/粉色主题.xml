@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme name="粉色主题">
+    <colors>
+        <!-- 主色调 - 更淡的粉色+白色 -->
+        <window>#FFF8FA</window>
+        <window_text>#4A4A4A</window_text>
+        <base>#FFFFFF</base>
+        <alternate_base>#FFF0F5</alternate_base>
+        <button>#FFE8F0</button>
+        <button_text>#4A4A4A</button_text>
+        <highlight>#F48FB1</highlight>
+        <highlight_text>#FFFFFF</highlight_text>
+        
+        <!-- 工具栏 -->
+        <toolbar_bg>#FFFBFC</toolbar_bg>
+        <toolbar_border>#FFD6E0</toolbar_border>
+        
+        <!-- 状态栏 -->
+        <statusbar_bg>#F48FB1</statusbar_bg>
+        <statusbar_text>#FFFFFF</statusbar_text>
+        
+        <!-- Dock -->
+        <dock_title_bg>#FFFBFC</dock_title_bg>
+        <dock_border>#FFD6E0</dock_border>
+        
+        <!-- 网格 -->
+        <grid_light>#FFF5F8</grid_light>
+        <grid_dark>#FFEEF3</grid_dark>
+        
+        <!-- 菜单 -->
+        <menu_bg>#FFFBFC</menu_bg>
+        <menu_text>#4A4A4A</menu_text>
+        <menu_hover>#FFE8F0</menu_hover>
+        
+        <!-- 输入框 -->
+        <input_bg>#FFFFFF</input_bg>
+        <input_text>#4A4A4A</input_text>
+        <input_border>#FFCCE0</input_border>
+        <input_border_focus>#F48FB1</input_border_focus>
+        
+        <!-- 滚动条 -->
+        <scrollbar_bg>#FFF8FA</scrollbar_bg>
+        <scrollbar_handle>#FFCCE0</scrollbar_handle>
+        <scrollbar_handle_hover>#FFAAC8</scrollbar_handle_hover>
+    </colors>
+    
+    <node>
+        <background_start>#FFFDFE</background_start>
+        <background_end>#FFFFFF</background_end>
+        <title_bg_start>#FFF0F5</title_bg_start>
+        <title_bg_end>#FFE8F0</title_bg_end>
+        <title_text>#C2185B</title_text>
+        <border_default>#FFCCE0</border_default>
+        <border_selected>#F48FB1</border_selected>
+        <roundness>12</roundness>
+        
+        <!-- 节点组特殊颜色 -->
+        <group_background_start>#FFF5F8</group_background_start>
+        <group_background_end>#FFFAFC</group_background_end>
+        <group_title_bg_start>#FFD4E5</group_title_bg_start>
+        <group_title_bg_end>#FFE0ED</group_title_bg_end>
+        <group_title_text>#880E4F</group_title_text>
+        <group_border_default>#F8BBD0</group_border_default>
+        <group_border_selected>#EC407A</group_border_selected>
+        
+        <!-- 节点组IO节点特殊颜色 -->
+        <group_io_background_start>#F3E5F5</group_io_background_start>
+        <group_io_background_end>#F8F0FA</group_io_background_end>
+        <group_io_title_bg_start>#CE93D8</group_io_title_bg_start>
+        <group_io_title_bg_end>#DDA3E0</group_io_title_bg_end>
+        <group_io_title_text>#4A148C</group_io_title_text>
+        <group_io_border_default>#BA68C8</group_io_border_default>
+        <group_io_border_selected>#9C27B0</group_io_border_selected>
+    </node>
+    
+    <socket>
+        <colors>
+            <any>#FF9800</any>
+            <string>#66BB6A</string>
+            <number>#42A5F5</number>
+            <path>#AB47BC</path>
+            <boolean>#EF5350</boolean>
+            <list>#26C6DA</list>
+            <dict>#FFEE58</dict>
+        </colors>
+        <radius>7</radius>
+    </socket>
+    
+    <connection>
+        <default>#F48FB1</default>
+        <selected>#E91E63</selected>
+        <width>3.0</width>
+    </connection>
+</theme>
+
